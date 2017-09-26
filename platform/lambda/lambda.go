@@ -55,14 +55,14 @@ var apiGatewayAssumePolicy = `{
 			},
 			"Action": "sts:AssumeRole"
 		},
-		{
-      "Effect": "Allow",
-      "Principal": {
-        "Service": "lambda.amazonaws.com"
-      },
-      "Action": "sts:AssumeRole"
-    }
-	]
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "lambda.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
 }`
 
 // policy for the lambda function.
